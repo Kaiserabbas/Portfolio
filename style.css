@@ -36,7 +36,7 @@ body {
 }
 
 .container {
-  font-family:'poppins';
+  font-family: 'poppins', 'Times New Roman', Times, serif;
   display: flex;
   flex-direction: column;
   background-image: url(./public/headershapes-mobile.svg);
