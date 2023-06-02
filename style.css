@@ -6,15 +6,14 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-
 }
 
 .logo {
-  cursor: pointer;  
+  cursor: pointer;
   z-index: +1;
 }
 
-.logo-image{
+.logo-image {
   height: auto;
   width: 50%;
   margin-left: 10%;
@@ -25,7 +24,7 @@ body {
   display: flex;
   cursor: pointer;
   flex-direction: column;
-  width: 35px;    
+  width: 35px;
   height: 5px;
   background-color: black;
   margin: 3px 0;
