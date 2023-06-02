@@ -20,34 +20,34 @@ body {
   margin-right: 10%;
 }
 
+.navbar{
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
 .bar {
   display: flex;
   cursor: pointer;
   flex-direction: column;
-  width: 35px;
-  height: 5px;
-  background-color: black;
+  width: 25px;
+  height: 2px;
+  background-color: rgb(65, 57, 182);
   margin: 3px 0;
 }
 
 .container {
+  font-family: Poppins;
   display: flex;
   flex-direction: column;
   background-image: url(./public/headershapes-mobile.svg);
+  background-position: right;
+  background-size: contain;
   position: absolute;
   align-items: center;
   width: 375px;
-  height: 768px;
+  height: 718px;
   left: 0%;
   top: 0%;
-}
-
-.mobile-icon {
-  position: absolute;
-  top: 6.5rem;
-  left: 0;
-  width: 28.88rem;
-  height: 36.7rem;
 }
 
 .im-qaisar {
@@ -56,7 +56,8 @@ body {
 
 .primary-text {
   position: relative;
-  font-size: 2.5rem;
+  font-size: 2.0rem;
+  text-justify: auto;
   line-height: 3.25rem;
   display: flex;
   align-items: center;
@@ -72,7 +73,7 @@ body {
 }
 
 .primary-text1 {
-  color: #344563;
+  color: #364052;
   display: inline-block;
   width: 20.44rem;
   height: 9.13rem;
@@ -113,7 +114,7 @@ body {
 }
 
 .social {
-  list-style: none;
   display: flex;
-  cursor: nwse-resize;
+  list-style: none;
+  margin-left: -13%;
 }
