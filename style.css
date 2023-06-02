@@ -6,28 +6,35 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+
 }
 
 .logo {
+  cursor: pointer;  
+  z-index: +1;
+}
+
+.logo-image{
   height: auto;
-  width: 35%;
+  width: 50%;
   margin-left: 10%;
+  margin-right: 10%;
 }
 
-.navbar {
+.bar {
   display: flex;
+  cursor: pointer;
   flex-direction: column;
-}
-
-.nav-icon {
-  list-style-type: none;
-  font: 1rem;
-  color: #0d1450;
+  width: 35px;    
+  height: 5px;
+  background-color: black;
+  margin: 3px 0;
 }
 
 .container {
   display: flex;
   flex-direction: column;
+  background-image: url(./public/headershapes-mobile.svg);
   position: absolute;
   align-items: center;
   width: 375px;
@@ -92,12 +99,6 @@ body {
   color: #7f8cff;
 }
 
-.social-media-icons {
-  position: relative;
-  width: 10.64rem;
-  height: 1.25rem;
-}
-
 .headline {
   position: absolute;
   top: 5.75rem;
@@ -110,4 +111,10 @@ body {
   justify-content: flex-start;
   gap: 0.75rem;
   font-size: 1rem;
+}
+
+.social {
+  list-style: none;
+  display: flex;
+  cursor: nwse-resize;
 }
