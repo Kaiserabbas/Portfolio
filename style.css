@@ -1,0 +1,120 @@
+body {
+  width: 375px;
+  height: 718px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  cursor: pointer;
+  z-index: +1;
+}
+
+.logo-image {
+  height: auto;
+  width: 50%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.navbar {
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.bar {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  width: 25px;
+  height: 2px;
+  background-color: rgb(65, 57, 182);
+  margin: 3px 0;
+}
+
+.container {
+  font-family: 'poppins', 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./public/headershapes-mobile.svg);
+  background-position: right;
+  background-size: contain;
+  position: absolute;
+  align-items: center;
+  width: 375px;
+  height: 718px;
+  left: 0%;
+  top: 0%;
+}
+
+.im-qaisar {
+  margin: 0;
+}
+
+.primary-text {
+  position: relative;
+  font-size: 2rem;
+  text-justify: auto;
+  line-height: 3.25rem;
+  display: flex;
+  align-items: center;
+  width: 20.44rem;
+  height: 9.38rem;
+  flex-shrink: 0;
+}
+
+.lets-connect,
+.primary-text1 {
+  position: relative;
+  line-height: 1.5rem;
+}
+
+.primary-text1 {
+  color: #364052;
+  display: inline-block;
+  width: 20.44rem;
+  height: 9.13rem;
+  flex-shrink: 0;
+}
+
+.lets-connect {
+  font-weight: 500;
+}
+
+.social-media,
+.supporting-text {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.social-media {
+  flex-direction: column;
+  align-items: flex-start;
+  color: #7f8cff;
+}
+
+.headline {
+  position: absolute;
+  top: 5.75rem;
+  left: calc(50% - 187.5px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 7.13rem 1.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.75rem;
+  font-size: 1rem;
+}
+
+.social {
+  display: flex;
+  list-style: none;
+  margin-left: -13%;
+}
