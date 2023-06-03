@@ -47,7 +47,7 @@ body {
   cursor: pointer;
 }
 
-bu0tton:active {
+button:active {
   background-color: #2b82ec;
   color: rgb(252, 251, 253);
 }
