@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+    />
+    <link rel="stylesheet" href="about myself.css" />
+    <title>Tonic</title>
+  </head>
+  <body>
+    <section class="second-page">
+      <div class="main-text"><h1>About Myself</h1></div>
+      <div>
+        <p class="project-para">
+          Hello, i'm a software developer! I can help you build a project,
+          feature or website. Look through somae of my work and experience! If
+          you like what you see and have a project you need coded, don't
+          desitate to contact me.
+        </p>
+      </div>
+      <div class="social-media">
+          <div class="supporting-text">
+            <div class="lets-connect">LET’S CONNECT</div>
+          </div>
+        </div>
+        <ul class="social">
+          <li class="social-icon-margin">
+            <a href="https://twitter.com/AbbasKayser"
+              ><img src="./public/iconsicon--twitter.svg"
+            /></a>
+          </li>
+          <li class="social-icon-margin">
+            <a href="https://www.linkedin.com/in/qaisar-abbas-21a93840/"
+              ><img src="./public/iconsicon--linkedin.svg"
+            /></a>
+          </li>
+          <li class="social-icon-margin">
+            <a href="https://github.com/Kaiserabbas/"
+              ><img src="./public/iconsicon-github.svg"
+            /></a>
+          </li>
+          <li class="social-icon-margin">
+            <a href="https://github.com/Kaiserabbas/"
+              ><img src="./public/iconsicon--medium.svg"
+            /></a>
+          </li>
+          <li class="social-icon-margin">
+            <a href="https://github.com/Kaiserabbas/"
+              ><img src="./public/iconsicon--angelist.svg"
+            /></a>
+          </li>
+        </ul>
+      </div class="main-drop">
+      <button class="button-2">Get my resume</button>
+    </section>
+
+    <section class="works">
+      <button type="button" class="collapsible"><h2>Languages</h2><img src="./public/down.svg" alt=""> </button>
+      <div class="content">
+      <div>
+          <ul class="lang">
+            <li> <img src="./public/ellipse-1@2x.png" alt=""> <span>Javascript</span> </li>
+            <li> <img src="./public/ellipse-11@2x.png" alt=""> <span>HTML</span> </li>
+            <li> <img src="./public/ellipse-12@2x.png" alt=""> <span>CSS</span> </li>
+
+          </ul>
+        </div>
+    </section>
+    <section class="framework">
+      <button type="button" class="collapsible"><h2>Frameworks</h2> <img src="./public/right.svg" alt=""> </button>
+      <div class="content">
+      <div>
+          <ul class="lang">
+            <li> <img src="./public/Bootstrap_logo.svg" alt=""> <span>Bootstrap</span> </li>
+            <li> <img src="./public/AngularJS-Shield.svg" alt=""> <span>Anglar</span> </li>
+            <li> <img src="./public/vue-transparent.png" alt=""> <span>VUE</span> </li>
+
+          </ul>
+        </div>
+    </section>
+        <section class="skills">
+      <button type="button" class="collapsible"><h2>Skills</h2> <img src="./public/right.svg" alt=""> </button>
+      <div class="content">
+      <div>
+          <ul class="lang">
+            <li> <img src="./public/Adobe_Photoshop_Express_logo.png" alt=""> <span>Adobe Photoshop</span> </li>
+            <li> <img src="./public/adobe-illustrator.svg" alt=""> <span>Adobe Illustrator</span> </li>
+          </ul>
+        </div>
+    </section>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+          content.style.display = "none";
+          } else {
+          content.style.display = "block";
+          }
+        });
+      }
+</script>
+  </body>
+</html>

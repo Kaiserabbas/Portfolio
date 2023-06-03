@@ -1,0 +1,67 @@
+body {
+  width: 375px;
+  height: 718px;
+  font-family: "poppins";
+  margin: 2%;
+  color: #424242;
+}
+
+.image-div {
+  background-color: rgb(228, 129, 17);
+  border-radius: 3%;
+  padding: 10% 5%;
+}
+
+.image {
+  width: 100%;
+  border-radius: 2%;
+  
+}
+
+.main-text {
+  font-size: 2rem;
+}
+.project-detail {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.project-detail-sub {
+  color: #9e9e9e;
+  font-weight: 600;
+}
+
+button:active {
+  background-color: #2b82ec;
+  color: rgb(252, 251, 253);
+}
+
+.button-1 {
+  background-color: #e5e9ee;
+  border: none;
+  border-radius: 25%;
+  color: rgb(116, 101, 179);
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.85rem;
+  margin: 4px 6px;
+  cursor: pointer;
+  }
+
+.button-2 {
+  background-color: #ffffff;
+  border: 1px solid rgb(24, 24, 122);
+  border-radius: 10%;
+  color: rgb(24, 24, 122);
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 20px 6px;
+  cursor: pointer;
+}

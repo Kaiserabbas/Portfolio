@@ -1,6 +1,7 @@
 body {
   width: 375px;
   height: 718px;
+  color: #424242;
 }
 
 .header {
@@ -30,7 +31,7 @@ body {
   cursor: pointer;
   flex-direction: column;
   width: 25px;
-  height: 2px;
+  height: 5px;
   background-color: rgb(65, 57, 182);
   margin: 3px 0;
 }
@@ -117,4 +118,40 @@ body {
   display: flex;
   list-style: none;
   margin-left: -13%;
+}
+
+.social-icon-margin {
+  margin: 4%;
+}
+
+.collapsible {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  color: rgb(77, 76, 76);
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible h2 {
+  font-family: "poppins";
+
+}
+
+.active,
+.collapsible:hover {
+  background-color: #d2effa;
+}
+
+.content {
+  padding: 10 18px;
+  border-radius: 2%;
+  display: none;
+  overflow: hidden;
+  background-color: #ffffff;
 }
