@@ -1,6 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   width: 375px;
-  height: 718px;
+  min-height: 100vh;
+  color: #424242;
+  font-family: "poppins", sans-serif;
 }
 
 .header {
@@ -10,7 +16,6 @@ body {
 
 .logo {
   cursor: pointer;
-  z-index: +1;
 }
 
 .logo-image {
@@ -30,7 +35,7 @@ body {
   cursor: pointer;
   flex-direction: column;
   width: 25px;
-  height: 2px;
+  height: 5px;
   background-color: rgb(65, 57, 182);
   margin: 3px 0;
 }
@@ -42,10 +47,9 @@ body {
   background-image: url(./public/headershapes-mobile.svg);
   background-position: right;
   background-size: contain;
-  position: absolute;
+  position: relative;
   align-items: center;
   width: 375px;
-  height: 718px;
   left: 0%;
   top: 0%;
 }
@@ -100,7 +104,7 @@ body {
 }
 
 .headline {
-  position: absolute;
+  position: relative;
   top: 5.75rem;
   left: calc(50% - 187.5px);
   overflow: hidden;
@@ -117,4 +121,185 @@ body {
   display: flex;
   list-style: none;
   margin-left: -13%;
+}
+
+.social-icon-margin {
+  margin: 2%;
+}
+
+.collapsible {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: rgb(77, 76, 76);
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible h2 {
+  font-family: "poppins", sans-serif;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #d2effa;
+}
+
+.content {
+  padding: 10 18px;
+  border-radius: 2%;
+  display: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.image-div {
+  background-color: rgb(250, 173, 85);
+  border-radius: 3%;
+  padding: 10% 5%;
+}
+
+.image-div-3 {
+  background-color: rgb(252, 219, 238);
+  border-radius: 3%;
+  padding: 10% 5%;
+}
+
+.image-div-4 {
+  background-color: rgb(214, 145, 42);
+  border-radius: 3%;
+  padding: 10% 5%;
+}
+
+.image-div-5 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 3%;
+  padding: 10% 5%;
+}
+
+.image {
+  width: 100%;
+  border-radius: 2%;
+}
+
+.main-text {
+  font-size: 2rem;
+  color: #353535;
+}
+
+.project-detail {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: #353535;
+}
+
+.project-detail-sub {
+  color: #9e9e9e;
+  font-weight: 600;
+}
+
+.list-main {
+  color: #fff;
+}
+
+.list {
+  background-color: #e5e9ee;
+  list-style: none;
+  border: none;
+  border-radius: 25%;
+  color: rgb(116, 101, 179);
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.85rem;
+  margin: 4px 6px;
+  cursor: pointer;
+}
+
+.list:active {
+  background-color: #2b82ec;
+  color: rgb(252, 251, 253);
+}
+
+.button-2 {
+  background-color: #fff;
+  border: 1px solid rgb(24, 24, 122);
+  border-radius: 10%;
+  color: rgb(24, 24, 122);
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 20px 6px;
+  cursor: pointer;
+}
+
+.project-para {
+  color: #424242;
+}
+
+.second-page {
+  margin-top: 10%;
+}
+
+.third-page {
+  margin-top: 10%;
+}
+
+.fourth-page {
+  margin-top: 10%;
+}
+
+.fifth-page {
+  margin-top: 10%;
+}
+
+.sixth-page {
+  margin-top: 30%;
+}
+
+.works-container {
+  display: grid;
+}
+
+.lang {
+  list-style: none;
+  color: rgb(75, 74, 74);
+}
+
+.lang li {
+  display: flex;
+  align-items: center;
+  background-color: #f0eded;
+  margin-left: -10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 5%;
+  font-weight: 600;
+}
+
+.lang li img {
+  width: 15%;
+  margin-right: 10%;
+}
+
+.works {
+  margin-top: 15%;
+}
+
+.text-aboutmyself {
+  color: #353535;
+  margin-top: 25%;
+  font-size: 2rem;
+  text-shadow: 2px;
+  width: 20px;
 }
