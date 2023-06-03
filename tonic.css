@@ -1,7 +1,7 @@
 body {
   width: 375px;
   height: 718px;
-  font-family: "poppins";
+  font-family: "poppins", sans-serif;
   margin: 2%;
   color: #424242;
 }
@@ -20,6 +20,7 @@ body {
 .main-text {
   font-size: 2rem;
 }
+
 .project-detail {
   display: flex;
   flex-direction: row;
@@ -44,15 +45,15 @@ body {
   font-size: 0.85rem;
   margin: 4px 6px;
   cursor: pointer;
-  }
+}
 
-button:active {
+bu0tton:active {
   background-color: #2b82ec;
   color: rgb(252, 251, 253);
-  }
+}
 
 .button-2 {
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px solid rgb(24, 24, 122);
   border-radius: 10%;
   color: rgb(24, 24, 122);

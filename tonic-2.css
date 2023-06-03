@@ -1,7 +1,7 @@
 body {
   width: 375px;
   height: 718px;
-  font-family: "poppins";
+  font-family: "poppins", sans-serif;
   margin: 2%;
   color: #424242;
 }
@@ -15,12 +15,12 @@ body {
 .image {
   width: 100%;
   border-radius: 2%;
-  
 }
 
 .main-text {
   font-size: 2rem;
 }
+
 .project-detail {
   display: flex;
   flex-direction: row;
@@ -50,10 +50,10 @@ button:active {
   font-size: 0.85rem;
   margin: 4px 6px;
   cursor: pointer;
-  }
+}
 
 .button-2 {
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px solid rgb(24, 24, 122);
   border-radius: 10%;
   color: rgb(24, 24, 122);

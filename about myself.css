@@ -1,20 +1,20 @@
 body {
   width: 375px;
   height: 718px;
-  font-family: "poppins";
+  font-family: "poppins", sans-serif;
   margin: 2%;
   color: #403157;
 }
 
 .main-text {
-  margin-top: 35%;;
+  margin-top: 35%;
   font-size: 2rem;
-  text-shadow: 2px;;
+  text-shadow: 2px;
   width: 40px;
 }
 
 .project-para {
-    font-size: 1.12rem;
+  font-size: 1.12rem;
 }
 
 .project-detail-sub {
@@ -23,7 +23,7 @@ body {
 }
 
 .button-2 {
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px solid rgb(0, 0, 255);
   border-radius: 10%;
   color: rgb(103, 103, 172);
@@ -36,7 +36,7 @@ body {
   cursor: pointer;
 }
 
-.lets-connect{
+.lets-connect {
   position: relative;
   line-height: 1.5rem;
   font-weight: 500;
@@ -86,14 +86,15 @@ body {
   margin-right: 10%;
 }
 
-.works{
-    margin-top: 15%;
+.works {
+  margin-top: 15%;
 }
+
 .collapsible {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #fff;
   color: rgb(77, 76, 76);
   cursor: pointer;
   width: 100%;
@@ -105,8 +106,8 @@ body {
 
 .collapsible h2 {
   font-family: "poppins";
-
 }
+
 .active,
 .collapsible:hover {
   background-color: #d2effa;
@@ -117,5 +118,5 @@ body {
   border-radius: 2%;
   display: none;
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: #fff;
 }

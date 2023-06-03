@@ -128,7 +128,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #fff;
   color: rgb(77, 76, 76);
   cursor: pointer;
   width: 100%;
@@ -139,8 +139,7 @@ body {
 }
 
 .collapsible h2 {
-  font-family: "poppins";
-
+  font-family: "poppins", sans-serif;
 }
 
 .active,
@@ -153,5 +152,5 @@ body {
   border-radius: 2%;
   display: none;
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: #fff;
 }
