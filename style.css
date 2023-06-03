@@ -198,7 +198,6 @@ body {
   margin-top: 10%;
   margin-bottom: 10%;
   color: #353535;
-
 }
 
 .project-detail-sub {
@@ -209,6 +208,7 @@ body {
 .list-main {
   color: #fff;
 }
+
 .list {
   background-color: #e5e9ee;
   list-style: none;
@@ -244,8 +244,9 @@ body {
 }
 
 .project-para {
-    color: #424242;
+  color: #424242;
 }
+
 .second-page {
   margin-top: 10%;
 }
