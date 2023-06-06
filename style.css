@@ -314,7 +314,7 @@ body {
   margin: 6em 0 0 0;
   padding: 3em;
   border-radius: 5em 0 0 0;
-  background-color: #6070FF;
+  background-color: #6070ff;
   background-image: url(./public/contact-form-shapesmobile.svg);
   background-repeat: no-repeat;
   background-size: 70%;
@@ -348,7 +348,7 @@ body {
   margin-top: 0.75em;
 }
 
-.contact-me-form>input:focus,
+.contact-me-form > input:focus,
 textarea:focus {
   outline: none !important;
   border: 1px solid #f7f7f9;
@@ -375,7 +375,7 @@ textarea:focus {
   width: 100px;
   padding: 3%;
   border-radius: 10px;
-  border-color: #6070FF;
+  border-color: #6070ff;
 }
 
 /* Contact me ends here */
