@@ -91,7 +91,7 @@
       </div>
       <div>
         <p class="project-para">
-          A daily selection of privately personalized reads; no accounts or
+          A daily selection of privately personalized reads; no accounts or 
           sign-ups requiired.
         </p>
       </div>
@@ -104,7 +104,6 @@
       </div>
       <button class="button-2">See Project</button>
     </section>
-    
     <section class="third-page">
       <div class="image-div-3">
         <a href="index.html"><img src="./public/multi-post.jpg" class="image" /></a>
@@ -277,22 +276,44 @@
         </div>
 
     </section>
-    <section class="form">
-      <h1>Contact Me</h1>
-      <p>If you have an application, you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it</p>
-
-      <form>
-          <label for="name"></label>
-          <input class="input" type="text" id="name" name="name" placeholder="Qaisar Abbas" required><br><br>
-
-          <label for="email"></label>
-          <input class="input" type="email" id="email" name="email" placeholder="kayser.abbas@gmail.com" required><br><br>
-
-          <label for="message"></label>
-          <textarea class="input" id="message" name="message" rows="6" cols="35" placeholder="Write message here" required></textarea><br><br>
-
-          <input class="submit" type="submit" value="Get in Touch">
+    <section>
+      <div class="contact-me-form-container">
+        <h1 class="contact-me-form-heading">
+            Contact me
+        </h1>
+        <p class="contact-me-form-paragraph">
+            If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I'd love to help
+        with it
+        </p>
+      <form action="https://formspree.io/f/mdovrdrq" method="post" class="contact-me-form">
+        <input class="contact-me-form-text-input"
+          required
+          maxlength="30"
+          name="name"
+          type="text"
+          placeholder="Your good name">
+          <input
+          class="contact-me-form-text-input"
+          required
+          name="email"
+          type="email"
+          placeholder="Your email address"
+        />
+          <textarea
+          class="contact-me-form-text-input"
+          required
+          maxlength="500"
+          name="message"
+          cols="30"
+          rows="9"
+          placeholder="Write your message here"
+        ></textarea>
+         <button class="contact-me-form-button" type="submit">
+          Get In Touch
+        </button>
       </form>
+      </div>    
     </section>
 <script>
     var coll = document.getElementsByClassName("collapsible");
