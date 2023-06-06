@@ -314,14 +314,15 @@ body {
   text-align: center;
   color: #fff;
   font-size: 2rem;
-  text-align: center;
   text-decoration: none !important;
 }
+
 .form p {
-    color: #e0e0e0;
-    font-size: 0.85rem;
-    text-align: center;
+  color: #e0e0e0;
+  font-size: 0.85rem;
+  text-align: center;
 }
+
 .form form {
   display: flex;
   flex-direction: column;
@@ -331,7 +332,7 @@ body {
 
 .input {
   padding: 2%;
-  color: #000000;
+  color: #000;
   font-size: 0.65rem;
   font-family: "poppins", sans-serif;
 }
