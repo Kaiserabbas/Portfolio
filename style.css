@@ -213,7 +213,7 @@ body {
   background-color: #e5e9ee;
   list-style: none;
   border: none;
-  border-radius: 25%;
+  border-radius: 10px;
   color: rgb(116, 101, 179);
   padding: 7px 16px;
   text-align: center;
@@ -231,9 +231,9 @@ body {
 
 .button-2 {
   background-color: #fff;
-  border: 1px solid rgb(24, 24, 122);
-  border-radius: 10%;
-  color: rgb(24, 24, 122);
+  border: 1px solid rgb(98, 98, 145);
+  border-radius: 10px;
+  color: rgb(105, 105, 160);
   padding: 7px 16px;
   text-align: center;
   text-decoration: none;
@@ -302,4 +302,45 @@ body {
   font-size: 2rem;
   text-shadow: 2px;
   width: 20px;
+}
+
+.form {
+  background-color: #6070fffb;
+  border-top-left-radius: 20%;
+  padding: 10%;
+}
+
+.form h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none !important;
+}
+.form p {
+    color: #e0e0e0;
+    font-size: 0.85rem;
+    text-align: center;
+}
+.form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "poppins", sans-serif;
+}
+
+.input {
+  padding: 2%;
+  color: #000000;
+  font-size: 0.65rem;
+  font-family: "poppins", sans-serif;
+}
+
+.submit {
+  width: 30%;
+  padding: 2%;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  margin-left: 35%;
 }
