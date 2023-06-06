@@ -387,17 +387,16 @@ textarea:focus {
   color: #fff;
   background-color: #6070ff;
   border-radius: 16px;
-  offset: 0px 8px rgba(64, 83, 252, 0.24);
+  offset: 1px 8px rgba(64, 83, 252, 0.24);
 }
 
 .contact-me-form-button:active {
   color: #fff;
-    background-color: #2230D2;
+  background-color: #2230d2;
 }
 
 .contact-me-form-button:disabled {
-  color: #5E6C84;
+  color: #5e6e84;
   background-color: #fff;
 }
 /* Contact me ends here */
-
